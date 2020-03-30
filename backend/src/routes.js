@@ -7,7 +7,7 @@ const profileController = require('./controllers/profileController');
 const sessionController = require('./controllers/sessionController');
 
 routes.get('/', (request, response) => {
-    return response.send('vaitefude');
+    return response.send('hello world');
 });
 
 routes.post('/sessions', sessionController.create);
